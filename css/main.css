@@ -1,0 +1,293 @@
+/*General*/
+
+.remove-pd-mar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ciu-blue-bg {
+    background-color: #002147;
+}
+
+.ciu-yellow-bg {
+    background-color: #f2b121;
+}
+
+.small-underline {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.small-underline:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    border-bottom: 5px solid black;
+}
+
+.small-underline-white {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: white;
+}
+
+.small-underline-white:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    bottom: -20px;
+    left: calc(50% - 25px);
+    border-bottom: 5px solid white;
+}
+
+.card-text, .card-title {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.slick-dots {
+    bottom: 5px;
+}
+
+.slick-dots li button:before {
+    color: white;
+    font-size: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+}
+
+/*General*/
+
+/*Top Menu*/
+
+.top-menu {
+    text-align: center;
+}
+
+.top-menu>ul>li>a {
+    color: #002147;
+    margin-bottom: 2px;
+}
+
+.top-menu>ul>li>a:before {
+    background: #002147;
+}
+
+.top-menu>ul>li>a:active {
+    color: #002147;
+}
+
+.top-menu>ul>li>a:hover {
+    color: #002147;
+    text-decoration: none;
+}
+
+.top-menu>ul {
+    color: #002147;
+    list-style-type: none;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.top-menu>ul>li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Top Menu*/
+
+/*Latest News*/
+
+.latest-news {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.latest-news>a, .latest-news>a:active, .latest-news>a:hover {
+    color: white;
+}
+
+.latest-news-marquee {
+    overflow: hidden;
+}
+
+.latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
+    margin: 0px 20px;
+    color: red;
+}
+
+/*Latest News*/
+
+/*Main Carousel*/
+
+.slide-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.slide-content>h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+}
+
+.slide-content>a {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Main Carousel*/
+
+/*Social Media*/
+
+.social-media {
+    position: absolute;
+    top: 30%;
+    left: 0px;
+}
+
+.social-media>a>img {
+    width: 50px;
+}
+
+/*Social Media*/
+
+/*QRCode*/
+
+.qr-code {
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    background-color: white;
+}
+
+.qr-code>img {
+    width: 100px;
+}
+
+.qr-code>a {
+    color: grey;
+}
+
+.qr-code>a:hover {
+    color: black;
+}
+
+/*QRCode*/
+
+/*Facultu*/
+
+.faculty-card {
+    width: 200px;
+    border: none;
+    padding: 10px;
+    background-color: #e9ecef;
+}
+
+/*Facultu*/
+
+/*Upcoming Events*/
+
+.event-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.event-content>h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+}
+
+.event-content>a {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Upcoming Events*/
+
+/*Events*/
+
+.event-card {
+    width: 400px;
+    border: none;
+    padding: 10px;
+    background-color: #e9ecef;
+}
+
+/*Events*/
+
+/*Map*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 100%;
+}
+
+/*Map*/
+
+/*sitemap*/
+
+.sitemap>p>a, .sitemap>p>a:hover, .sitemap>p>a:active {
+    color: white;
+}
+
+/*sitemap*/
+
+/*Responsive*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199.98px) {}
+
+/*Responsive*/
