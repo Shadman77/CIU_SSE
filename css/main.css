@@ -223,6 +223,10 @@
 .faculty-card:active, .faculty-card:hover{
     text-decoration: none;
 }
+.faculty-page-img{
+    width: 100%;
+    max-width: 50vw;
+}
 
 /*Facultu*/
 
@@ -404,6 +408,12 @@
         width: 50px;
     }
     /*QRCode*/
+    /*Faculty*/
+    .faculty-page-text{
+        text-align: center;
+        margin-top: 10px;
+    }
+    /*Faculty*/
 }
 
 /*Responsive*/
