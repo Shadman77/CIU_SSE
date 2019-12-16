@@ -1,0 +1,7 @@
+<a href="#" class="card faculty-card hvr-grow text-dark">
+                        <img class="card-img-top rounded-circle" src="img/faculty/5da4892722ac2asef.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Aseef Iqbal</h5>
+                            <p class="card-text">Associate Professor and Dean</p>
+                        </div>
+                    </a>
