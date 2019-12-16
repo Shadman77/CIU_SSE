@@ -321,6 +321,13 @@
 
 /*Hero*/
 
+/*Courses Page*/
+.course-toggle{
+    /*To initially hide the tables*/
+    display: none;
+}
+/*Courses Page*/
+
 /*Responsive*/
 
 /* Large devices (desktops, less than 1200px)*/
