@@ -57,6 +57,7 @@
 
 .slick-dots {
     bottom: 5px;
+    margin-bottom: 0px !important;
 }
 
 .slick-dots li button:before {
@@ -68,7 +69,8 @@
     color: white;
     opacity: 1;
 }
-.slick-prev:before, .slick-next:before{
+
+.slick-prev:before, .slick-next:before {
     color: black;
 }
 
@@ -255,13 +257,13 @@
     z-index: 2;
 }
 
-.event-carousel{
+.event-carousel {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.event-carousel-img{
+.event-carousel-img {
     /*Height of all images must be the same or else it will not look good*/
     width: 100%;
     max-height: 200px;
@@ -280,6 +282,15 @@
 }
 
 /*Upcoming Events*/
+
+/*Notice*/
+
+.notice {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/*Notice*/
 
 /*Events*/
 
@@ -338,10 +349,12 @@
 /*Hero*/
 
 /*Courses Page*/
-.course-toggle{
+
+.course-toggle {
     /*To initially hide the tables*/
     display: none;
 }
+
 /*Courses Page*/
 
 /*Responsive*/
@@ -385,10 +398,15 @@
     }
     /*Main Carousel*/
     /*Event Carousel*/
-    .event-carousel-img{
+    .event-carousel-img {
         max-height: 250px;
     }
     /*Event Carousel*/
+    /*Notice*/
+    .notice {
+        max-height: 250px;
+    }
+    /*Notice*/
     /*Social Media*/
     .social-media {
         top: 28%;
@@ -420,10 +438,15 @@
     }
     /*Main Carousel*/
     /*Event Carousel*/
-    .event-carousel-img{
+    .event-carousel-img {
         max-height: 200px;
     }
     /*Event Carousel*/
+    /*Notice*/
+    .notice {
+        max-height: 200px;
+    }
+    /*Notice*/
     /*Social Media*/
     .social-media {
         top: 30%;
@@ -457,10 +480,15 @@
     }
     /*Main Carousel*/
     /*Event Carousel*/
-    .event-carousel-img{
+    .event-carousel-img {
         max-height: 180px;
     }
     /*Event Carousel*/
+    /*Notice*/
+    .notice {
+        max-height: 180px;
+    }
+    /*Notice*/
     /*Social Media*/
     .social-media {
         top: 20%;
