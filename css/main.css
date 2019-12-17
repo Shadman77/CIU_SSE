@@ -356,6 +356,11 @@
 }
 
 /*Courses Page*/
+/*Events Page*/
+.event-page-card{
+    min-height: 450px;
+}
+/*Events Page*/
 
 /*Responsive*/
 
