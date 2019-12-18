@@ -1,3 +1,7 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+/*Fonts*/
+
 /*General*/
 
 .remove-pd-mar {
@@ -79,7 +83,8 @@
 /*Top Menu*/
 
 .top-menu {
-    text-align: center;
+    text-align: right;
+    padding: 0px 10px;
 }
 
 .top-menu>ul>li>a {
@@ -119,7 +124,7 @@
 
 .latest-news {
     display: inline-block;
-    background-color: red;
+    background-color: #002147;
     color: white;
     width: 100%;
     text-align: center;
@@ -140,10 +145,29 @@
 
 .latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
     margin: 0px 20px;
-    color: red;
+    color: #002147;
 }
 
 /*Latest News*/
+
+/*Logo*/
+
+.logo {
+    height: 120px;
+}
+
+.head-sse {
+    font-size: 35px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bolder;
+}
+
+.head-ciu {
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+}
+
+/*Logo*/
 
 /*Menu*/
 
@@ -356,10 +380,13 @@
 }
 
 /*Courses Page*/
+
 /*Events Page*/
-.event-page-card{
+
+.event-page-card {
     min-height: 450px;
 }
+
 /*Events Page*/
 
 /*Responsive*/
