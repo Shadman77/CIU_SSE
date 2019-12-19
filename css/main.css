@@ -385,7 +385,13 @@
 .course-btn:active{
     background-color: #000020 !important;
 }
-
+.course-tabs{
+    color: black !important;
+    padding: 10px !important;
+}
+.course-tabs:hover{
+    text-decoration: underline;
+}
 /*Courses Page*/
 
 /*Events Page*/
