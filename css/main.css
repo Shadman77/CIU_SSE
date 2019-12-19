@@ -184,6 +184,11 @@
     margin-right: 10px !important;
 }
 
+.dropdown-menu{
+    width: 400px;
+    max-width: 90vw;
+}
+
 /*Menu*/
 
 /*Main Carousel*/
