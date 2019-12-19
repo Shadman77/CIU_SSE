@@ -379,6 +379,12 @@
     /*To initially hide the tables*/
     display: none;
 }
+.course-btn:hover{
+    background-color: #344873 !important;
+}
+.course-btn:active{
+    background-color: #000020 !important;
+}
 
 /*Courses Page*/
 
