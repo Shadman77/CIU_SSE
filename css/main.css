@@ -78,6 +78,9 @@
 .slick-prev:before, .slick-next:before {
     color: black;
 }
+.story-img{
+    width: 50%;
+}
 
 /*General*/
 
@@ -179,7 +182,7 @@
     margin-right: 10px !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     width: 400px;
     max-width: 90vw;
 }
@@ -379,19 +382,24 @@
     /*To initially hide the tables*/
     display: none;
 }
-.course-btn:hover{
+
+.course-btn:hover {
     background-color: #344873 !important;
 }
-.course-btn:active{
+
+.course-btn:active {
     background-color: #000020 !important;
 }
-.course-tabs{
+
+.course-tabs {
     color: black !important;
     padding: 10px !important;
 }
-.course-tabs:hover{
+
+.course-tabs:hover {
     text-decoration: underline;
 }
+
 /*Courses Page*/
 
 /*Events Page*/
@@ -437,6 +445,11 @@
         height: 50vw;
     }
     /*Academic Calender Page*/
+    /*Events*/
+    .event-card {
+        width: 350px;
+    }
+    /*Events*/
 }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -483,6 +496,11 @@
         height: 70vw;
     }
     /*Academic Calender Page*/
+    /*Events*/
+    .event-card {
+        width: 300px;
+    }
+    /*Events*/
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -529,6 +547,10 @@
         width: 70px;
     }
     /*QRCode*/
+    .story-img{
+        width: 80%;
+    }
+    
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -580,6 +602,11 @@
         height: 70vw;
     }
     /*Academic Calender Page*/
+    /*Events*/
+    .event-card {
+        width: 250px;
+    }
+    /*Events*/
 }
 
 /*Responsive*/
