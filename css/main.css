@@ -83,37 +83,32 @@
 
 /*Top Menu*/
 
-.top-menu {
-    text-align: right;
-    padding: 0px 10px;
-}
-
-.top-menu>ul>li>a {
+.top-menu-ul>li>a {
     color: #002147;
     margin-bottom: 2px;
 }
 
-.top-menu>ul>li>a:before {
+.top-menu-ul>li>a:before {
     background: #002147;
 }
 
-.top-menu>ul>li>a:active {
+.top-menu-ul>li>a:active {
     color: #002147;
 }
 
-.top-menu>ul>li>a:hover {
+.top-menu-ul>li>a:hover {
     color: #002147;
     text-decoration: none;
 }
 
-.top-menu>ul {
+.top-menu-ul {
     color: #002147;
     list-style-type: none;
     padding: 0px !important;
     margin: 0px !important;
 }
 
-.top-menu>ul>li {
+.top-menu-ul>li {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
