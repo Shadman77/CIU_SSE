@@ -1,5 +1,9 @@
+/*For Test Only*/
+.form-inline{
+    display: none !important;
+}
+/*For Test Only*/
 /*Fonts*/
-
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
 /*Fonts*/
 
@@ -516,6 +520,11 @@
         width: 300px;
     }
     /*Events*/
+    /*Navbar*/
+    .dropdown-menu{
+        padding-left: 15px;
+    }
+    /*Navbar*/
 }
 
 /* Small devices (landscape phones, less than 768px)*/
