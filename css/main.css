@@ -61,8 +61,10 @@
 }
 
 .slick-dots {
-    bottom: 5px;
+    bottom: 0px;
+    padding: 0px 0px 5px 0px;
     margin-bottom: 0px !important;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slick-dots li button:before {
@@ -78,11 +80,51 @@
 .slick-prev:before, .slick-next:before {
     color: black;
 }
-.story-img{
+
+.slick-next {
+    right: 20px;
+    z-index: 2;
+}
+
+.slick-prev {
+    left: 20px;
+    z-index: 2;
+}
+
+.story-img {
     width: 50%;
 }
 
 /*General*/
+
+/*Bootstrap Carousel*/
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    /*border: 1px solid black;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+/*Bootstrap Carousel*/
 
 /*Top Menu*/
 
@@ -188,32 +230,6 @@
 }
 
 /*Menu*/
-
-/*Main Carousel*/
-
-.slide-content {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-}
-
-.slide-content>h1 {
-    font-family: 'Tangerine', cursive;
-    font-size: 100px;
-}
-
-.slide-content>a {
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*Main Carousel*/
 
 /*Social Media*/
 
@@ -424,11 +440,6 @@
 /* Large devices (desktops, less than 1200px)*/
 
 @media (max-width: 1199.98px) {
-    /*Main Carousel*/
-    .slide-content>h1 {
-        font-size: 70px;
-    }
-    /*Main Carousel*/
     /*Social Media*/
     .social-media>a>img {
         width: 40px;
@@ -450,6 +461,15 @@
         width: 350px;
     }
     /*Events*/
+    /*Bootstrap Carousel*/
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 50px;
+        width: 50px;
+    }
+    .carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+        font-size: 30px;
+    }
+    /*Bootstrap Carousel*/
 }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -465,11 +485,6 @@
         padding-right: 150px;
     }
     /*Logo*/
-    /*Main Carousel*/
-    .slide-content>h1 {
-        font-size: 60px;
-    }
-    /*Main Carousel*/
     /*Event Carousel*/
     .event-carousel-img {
         max-height: 250px;
@@ -512,15 +527,6 @@
         padding-right: 100px;
     }
     /*Logo*/
-    /*Main Carousel*/
-    .slide-content>h1 {
-        font-size: 50px;
-    }
-    .slide-content>a {
-        font-size: 10px;
-        width: 90px;
-    }
-    /*Main Carousel*/
     /*Event Carousel*/
     .event-carousel-img {
         max-height: 200px;
@@ -547,10 +553,9 @@
         width: 70px;
     }
     /*QRCode*/
-    .story-img{
+    .story-img {
         width: 80%;
     }
-    
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -562,11 +567,6 @@
         padding-right: 0px;
     }
     /*Logo*/
-    /*Main Carousel*/
-    .slide-content>h1 {
-        font-size: 30px;
-    }
-    /*Main Carousel*/
     /*Event Carousel*/
     .event-carousel-img {
         max-height: 180px;
