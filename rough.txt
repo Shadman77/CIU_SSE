@@ -1,6 +1,5 @@
 <!--Footer-->
         <section class="container-fluid pb-2">
-            <hr class="bg-light">
             <div class="row">
                 <div class="col-md-4 sitemap">
                     <h1 class="small-underline-white text-white">Sitemap</h1>
@@ -8,29 +7,29 @@
                         <div class="col-6">
                             <h4 class="text-light">About Us</h4>
                             <hr class="bg-light m-0">
-                            <a href="about.html" class="text-light">About SSE</a><br>
-                            <a href="head_of_school.html" class="text-light">Message from the Dean</a><br>
+                            <a href="../about.html" class="text-light">About SSE</a><br>
+                            <a href="../head_of_school.html" class="text-light">Message from the Dean</a><br>
                             <h4 class="text-light">Faculty</h4>
                             <hr class="bg-light m-0">
-                            <a href="faculty/faculty.html" class="text-light">Faculty</a><br>
-                            <a href="faculty/adjunct_faculty.html" class="text-light">Adjunct Faculty</a><br>
-                            <a href="faculty/managers.html" class="text-light">Managers</a><br>
+                            <a href="../faculty/faculty.html" class="text-light">Faculty</a><br>
+                            <a href="../faculty/adjunct_faculty.html" class="text-light">Adjunct Faculty</a><br>
+                            <a href="../faculty/managers.html" class="text-light">Managers</a><br>
                             <h4 class="text-light">Programs</h4>
                             <hr class="bg-light m-0">
-                            <a href="courses/cse.html" class="text-light">Dept of CSE</a><br>
-                            <a href="courses/eee.html" class="text-light">Dept of EEE</a><br>
-                            <a href="courses/ete.html" class="text-light">Dept of ETE</a><br>
+                            <a href="../courses/cse.html" class="text-light">Dept of CSE</a><br>
+                            <a href="../courses/eee.html" class="text-light">Dept of EEE</a><br>
+                            <a href="../courses/ete.html" class="text-light">Dept of ETE</a><br>
                         </div>
                         <div class="col-6">
                             <h4 class="text-light">Academics</h4>
                             <hr class="bg-light m-0">
-                            <a href="academics/admission_information.html" class="text-light">Admission
+                            <a href="../academics/admission_information.html" class="text-light">Admission
                                 Information</a><br>
-                            <a href="academics/tuition_fee.html" class="text-light">Tuition Fee</a><br>
-                            <a href="academics/scholarship.html" class="text-light">Scholarship</a><br>
+                            <a href="../academics/tuition_fee.html" class="text-light">Tuition Fee</a><br>
+                            <a href="../academics/scholarship.html" class="text-light">Scholarship</a><br>
                             <h4 class="text-light">Facilities</h4>
                             <hr class="bg-light m-0">
-                            <a href="laboratory.html" class="text-light">Laboratories</a><br>
+                            <a href="../laboratory.html" class="text-light">Laboratories</a><br>
                             <h4 class="text-light">Resources</h4>
                             <hr class="bg-light m-0">
                             <a href="http://ciu.edu.bd/sse/files/SSE-brochure.pdf" class="text-light">Brochure</a><br>
