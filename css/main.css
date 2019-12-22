@@ -565,6 +565,11 @@
     .story-img {
         width: 80%;
     }
+    /*Hero*/
+    .hero-text>h1 {
+        font-size: 5vw;
+    }
+    /*Hero*/
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
