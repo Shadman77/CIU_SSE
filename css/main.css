@@ -8,6 +8,9 @@
 /*Fonts*/
 
 /*General*/
+.table{
+    font-weight: 500 !important;
+}
 
 .remove-pd-mar {
     padding: 0px;
