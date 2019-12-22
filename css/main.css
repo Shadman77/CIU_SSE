@@ -439,8 +439,8 @@
 /*Academic Calender Page*/
 
 .academic-calender {
-    width: 50vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
 }
 
 /*Academic Calender Page*/
@@ -460,12 +460,6 @@
         width: 80px;
     }
     /*QRCode*/
-    /*Academic Calender Page*/
-    .academic-calender {
-        width: 60vw;
-        height: 50vw;
-    }
-    /*Academic Calender Page*/
     /*Events*/
     .event-card {
         width: 350px;
@@ -518,7 +512,7 @@
     /*Academic Calender Page*/
     .academic-calender {
         width: 100%;
-        height: 70vw;
+        height: 90vw;
     }
     /*Academic Calender Page*/
     /*Events*/
@@ -616,6 +610,12 @@
         width: 250px;
     }
     /*Events*/
+    /*Academic Calender Page*/
+    .academic-calender {
+        width: 150vw;
+        height: 150vw;
+    }
+    /*Academic Calender Page*/
 }
 
 /*Responsive*/
