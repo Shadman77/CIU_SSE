@@ -41,3 +41,19 @@ $(window).on("load resize", function () {
         $dropdown.off("mouseenter mouseleave");
     }
 });
+
+/**Scroll Up Button*/
+var scroll_up_btn = $('#scroll-up-button');
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+        scroll_up_btn.addClass('show');
+    } else {
+        scroll_up_btn.removeClass('show');
+    }
+});
+
+scroll_up_btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+});
