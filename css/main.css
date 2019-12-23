@@ -2,6 +2,14 @@
 .form-inline{
     display: none !important;
 }
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', sans-serif;
+}
+p, p.lead{
+    font-family: 'Open Sans', sans-serif;
+}
 /*For Test Only*/
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
