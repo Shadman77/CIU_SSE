@@ -61,10 +61,12 @@ SOFTWARE.
 }
 
 .tiles {
-    margin: 2vw;
+    /*margin: 2vw;
     display: inline-flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;*/
+    display: inline-block;
+    margin: 2vw;
 }
 
 .leftArrowButton {
