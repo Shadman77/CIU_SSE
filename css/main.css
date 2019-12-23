@@ -5,9 +5,14 @@
 /*For Test Only*/
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
 /*Fonts*/
 
 /*General*/
+.lead{
+    font-weight: 400;
+}
 .table{
     font-weight: 500 !important;
 }
@@ -30,7 +35,8 @@
     position: relative;
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 20px;
 }
 
 .small-underline:before {
@@ -206,13 +212,19 @@
 
 .head-sse {
     font-size: 35px;
-    font-family: 'Courier Prime', monospace;
+    /*font-family: 'Courier Prime', monospace;*/
+    font-variant: small-caps;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*font-family: 'Carrois Gothic SC', sans-serif;*/
     font-weight: bolder;
 }
 
 .head-ciu {
     font-size: 25px;
-    font-family: 'Courier Prime', monospace;
+    /*font-family: 'Courier Prime', monospace;*/
+    font-variant: small-caps;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*font-family: 'Carrois Gothic SC', sans-serif;*/
 }
 
 /*Logo*/
