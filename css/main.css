@@ -353,7 +353,8 @@ body, p, p.lead{
     width: 200px;
     border: none;
     padding: 10px;
-    background-color: #e9ecef;
+    /*background-color: #e9ecef;*/
+    background-color: transparent;
     z-index: 1 !important;
 }
 .faculty-card:hover{
