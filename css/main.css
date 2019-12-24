@@ -151,6 +151,8 @@ body, p, p.lead{
 .top-menu-ul>li>a {
     color: #002147;
     margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 14px;
 }
 
 .top-menu-ul>li>a:before {
@@ -252,11 +254,17 @@ body, p, p.lead{
     padding-right: 0px !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
+    font-size: 14px !important;
+}
+.nav-item:hover{
+    background-color: #344873;
 }
 
 .dropdown-menu {
     width: 400px;
     max-width: 90vw;
+    background-color: #344873;
+    border-radius: 0px;
 }
 
 /*Menu*/
