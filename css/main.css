@@ -261,7 +261,8 @@ body, p, p.lead{
 }
 
 .dropdown-menu {
-    width: 400px;
+    width: max-content;
+    /*min-width: 0px;*/
     max-width: 90vw;
     background-color: #344873;
     border-radius: 0px;
