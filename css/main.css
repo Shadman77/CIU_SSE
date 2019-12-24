@@ -2,28 +2,29 @@
 .form-inline{
     display: none !important;
 }
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-h1, h2, h3, h4, h5, h6{
-    /*font-family: 'Bebas Neue', sans-serif;*/
-    font-family: 'Montserrat', sans-serif !important;
-}
-body, p, p.lead{
-    /*font-family: 'Open Sans', sans-serif !important;*/
-}
+/*
+
+*/
 /*For Test Only*/
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 /*Fonts*/
 
 /*General*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif !important;
+}
+h1{
+    font-size: 180%;
+}
+body, p, p.lead{
+    font-family: 'Open Sans', sans-serif !important;
+}
 .lead{
     font-weight: 400;
-}
-.table{
-    font-weight: 500 !important;
+    font-size: 95%;
 }
 
 .remove-pd-mar {
@@ -62,8 +63,8 @@ body, p, p.lead{
     display: block;
     position: relative;
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -102,22 +103,19 @@ body, p, p.lead{
 .slick-prev:before, .slick-next:before {
     color: black;
 }
-/*
-.slick-next {
-    right: 20px;
-    z-index: 2;
-}
-
-.slick-prev {
-    left: 20px;
-    z-index: 2;
-}
-*/
 .story-img {
     width: 50%;
 }
-
 /*General*/
+
+/*Table*/
+.table td, .table th{
+    padding: .35rem;
+}
+.table{
+    font-weight: 400 !important;
+}
+/*Table*/
 
 /*Bootstrap Carousel*/
 
@@ -236,6 +234,10 @@ body, p, p.lead{
     /*font-family: 'Carrois Gothic SC', sans-serif;*/
 }
 
+.ciu-moto{
+    font-family: 'Courgette', cursive !important;
+}
+
 /*Logo*/
 
 /*Menu*/
@@ -258,6 +260,22 @@ body, p, p.lead{
 }
 
 /*Menu*/
+/*Sidebar*/
+.sidebar-menu:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.sidebar-menu{
+    color: black;
+    display: block;
+    padding: 5px 10px;
+}
+.sidebar-menu-active{
+    background-color: gray;
+    color: white;
+}
+/*Sidebar*/
 
 /*Social Media*/
 
@@ -367,10 +385,19 @@ body, p, p.lead{
 /*Events*/
 
 .event-card {
-    width: 400px;
+    width: 300px;
     border: none;
     padding: 10px;
     background-color: #e9ecef;
+}
+.event-card > .card-img-top{
+    height: 200px;
+    object-fit: contain;
+}
+.event-card > .card-body{
+    height: 200px;
+    border-top: 2px solid gray;
+    margin-top: 10px;
 }
 
 /*Events*/
