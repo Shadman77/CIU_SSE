@@ -171,7 +171,7 @@ body, p, p.lead{
 .top-menu-ul {
     color: #002147;
     list-style-type: none;
-    padding: 0px !important;
+    padding: 2px !important;
     margin: 0px !important;
 }
 
@@ -198,6 +198,10 @@ body, p, p.lead{
     text-decoration: none;
 }
 
+.latest-news > a, .latest-news-marquee-link {
+    font-size: 12px;
+}
+
 .latest-news>a:before {
     background: white;
 }
@@ -205,6 +209,7 @@ body, p, p.lead{
 .latest-news-marquee {
     overflow: hidden;
 }
+
 
 .latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
     margin: 0px 20px;
@@ -243,6 +248,10 @@ body, p, p.lead{
 /*Logo*/
 
 /*Menu*/
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 .nav-link::before {
     background: #f8f9fa;
@@ -258,6 +267,15 @@ body, p, p.lead{
 }
 .navbar-nav > .nav-item:hover{
     background-color: #344873;
+}
+
+.navbar-nav > .nav-item{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar-toggler{
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .dropdown-menu {
@@ -323,6 +341,12 @@ body, p, p.lead{
 
 /*QRCode*/
 
+/*Courses Index*/
+.index-course-btn > p{
+    font-size: 16px;
+}
+/*Index Page Courses*/
+
 /*Facultu*/
 
 .faculty-card {
@@ -330,6 +354,10 @@ body, p, p.lead{
     border: none;
     padding: 10px;
     background-color: #e9ecef;
+    z-index: 1 !important;
+}
+.faculty-card:hover{
+    z-index: 1 !important;
 }
 
 .faculty-card:active, .faculty-card:hover {
@@ -407,6 +435,17 @@ body, p, p.lead{
     height: 200px;
     border-top: 2px solid gray;
     margin-top: 10px;
+}
+
+.event-card > .card-body > a {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.event-card > .card-body > .card-text{
+    font-size: 14px;
 }
 
 /*Events*/
