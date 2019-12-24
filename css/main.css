@@ -461,14 +461,14 @@ body, p, p.lead{
 .mapouter {
     position: relative;
     text-align: right;
-    height: 200px;
+    height: 500px;
     width: 100%;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 200px;
+    height: 500px;
     width: 100%;
 }
 
