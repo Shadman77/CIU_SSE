@@ -531,6 +531,7 @@ body, p, p.lead{
 
 .event-page-card {
     min-height: 450px;
+    text-align: left !important;
 }
 
 /*Events Page*/
