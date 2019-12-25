@@ -2,9 +2,6 @@
 .form-inline{
     display: none !important;
 }
-/*
-
-*/
 /*For Test Only*/
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
@@ -19,12 +16,15 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 180%;
 }
+ul{
+    font-size: 14px;
+}
 body, p, p.lead{
     font-family: 'Open Sans', sans-serif !important;
 }
 .lead{
     font-weight: 400;
-    font-size: 95%;
+    font-size: 15px;
 }
 
 .remove-pd-mar {
@@ -199,7 +199,7 @@ body, p, p.lead{
 }
 
 .latest-news > a, .latest-news-marquee-link {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .latest-news>a:before {
@@ -287,6 +287,14 @@ body, p, p.lead{
 }
 
 /*Menu*/
+/*Footer*/
+.custom-footer > div > p{
+    font-size: 12px;
+}
+.custom-footer > div > img{
+    width: 100px;
+}
+/*Footer*/
 /*Sidebar*/
 .sidebar-menu:hover{
     background-color: black;
@@ -303,6 +311,33 @@ body, p, p.lead{
     color: white;
 }
 /*Sidebar*/
+/*Sidebar Submenu Toggle*/
+.sidebar-submenu:focus,.sidebar-submenu:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+.sidebar-submenu{
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+.sidebar-submenu:hover{
+    background-color: black;
+    color: white;
+}
+.sidebar-submenu-active{
+    color: white;
+    background-color: #afafaf;
+}
+.sidebar-submenu-toggle{
+    display: none;
+}
+.sidebar-submenu-toggle:first-child{
+    display: block;
+}
+/*Sidebar Submenu Toggle*/
 
 /*Social Media*/
 
@@ -368,6 +403,9 @@ body, p, p.lead{
 .faculty-page-img {
     width: 100%;
     max-width: 50vw;
+}
+.faculty-card > .card-body > .card-text{
+    font-size: 14px;
 }
 
 /*Facultu*/

@@ -50,7 +50,8 @@
                         <li><a href="academic_calender.html" class="hvr-underline-from-center">Academic Calendar</a>
                         </li>
                         <li><a href="notices/index.html" class="hvr-underline-from-center">Notices</a></li>
-                        <li><a href="upcoming_events/index.html" class="hvr-underline-from-center">Upcoming Events</a></li>
+                        <li><a href="upcoming_events/index.html" class="hvr-underline-from-center">Upcoming Events</a>
+                        </li>
                         <li><a href="news/index.html" class="hvr-underline-from-center">News</a></li>
                         <!--<li><a href="#" class="hvr-underline-from-center">Library</a></li>-->
                         <!--<li><a href="#" class="hvr-underline-from-center">Alumni</a></li>-->
@@ -240,6 +241,23 @@
                 <!--Side Bar-->
                 <div class="bg-light">
                     <a href="#" class="sidebar-menu-active sidebar-menu">About SSE</a>
+                    <div class="mb-2">
+                        <button class="sidebar-submenu-active btn sidebar-submenu pl-5" data-toggle-target="background">
+                            Background
+                        </button>
+                        <button class="sidebar-submenu btn pl-5" data-toggle-target="mission">
+                            Mission
+                        </button>
+                        <button class="sidebar-submenu btn pl-5" data-toggle-target="vision">
+                            Vision
+                        </button>
+                        <button class="sidebar-submenu btn pl-5" data-toggle-target="objectives">
+                            Objectives
+                        </button>
+                        <button class="sidebar-submenu btn pl-5" data-toggle-target="activities">
+                            Activities
+                        </button>
+                    </div>
                     <a href="head_of_school.html" class="sidebar-menu">Message from the Dean</a>
                 </div>
                 <!--Side Bar-->
@@ -247,7 +265,7 @@
             <div class="col-lg-9 text-justify">
                 <!--Content-->
                 <!--Background-->
-                <section class="container">
+                <section class="container sidebar-submenu-toggle" id="background">
                     <h1 class="small-underline mt-5">Background</h1>
                     <p class="lead">
                         The School of Science and Engineering (SSE), previously named School of Engineering & Computer
@@ -291,7 +309,7 @@
                 <!--Background-->
 
                 <!--Mission-->
-                <section class="container">
+                <section class="container sidebar-submenu-toggle" id="mission">
                     <h1 class="small-underline mt-5">Mission</h1>
                     <p class="lead">
                         SSE will support the development of our country by discovering and advancing knowledge through
@@ -312,7 +330,7 @@
                 <!--Mission-->
 
                 <!--Vision-->
-                <section class="container">
+                <section class="container sidebar-submenu-toggle" id="vision">
                     <h1 class="small-underline mt-5">Vision</h1>
                     <p class="lead">
                         We envisioned CIU to be known as the number one destination in the country for science and
@@ -340,7 +358,7 @@
                 <!--Vision-->
 
                 <!--Objectives-->
-                <section class="container">
+                <section class="container sidebar-submenu-toggle" id="objectives">
                     <h1 class="small-underline mt-5">Objectives</h1>
                     <p class="lead">
                         The objectives of SSE are to disseminate, create and advance knowledge wisdom and understanding
@@ -366,7 +384,7 @@
                 <!--Objectives-->
 
                 <!--Activities-->
-                <section class="container">
+                <section class="container sidebar-submenu-toggle" id="activities">
                     <h1 class="small-underline mt-5">Activities</h1>
                     <p class="lead">
                         SSE students are associated with several clubs (e.g. iSEC, Robotics Club) of CIU for their
@@ -454,6 +472,7 @@
     <script type="text/javascript " src="js/jquery.marquee.js "></script>
     <!--Custom Script-->
     <script type="text/javascript " src="js/script.js "></script>
+    <script type="text/javascript" src="js/sidebar_submenu.js"></script>
     <!--Scripts-->
 </body>
 
