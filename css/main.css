@@ -337,7 +337,12 @@ body, p, p.lead{
 .sidebar-submenu-toggle{
     display: none;
 }
+/*
 .sidebar-submenu-toggle:first-child{
+    display: block;
+}
+*/
+.sidebar-submenu-toggle:first-of-type{
     display: block;
 }
 /*Sidebar Submenu Toggle*/
@@ -581,8 +586,8 @@ body, p, p.lead{
 /*Academic Calender Page*/
 
 .academic-calender {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
 }
 
 /*Academic Calender Page*/

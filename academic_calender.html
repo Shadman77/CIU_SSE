@@ -234,7 +234,7 @@
     </section>
     <!--Hero Area-->
 
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
             <div class="col-lg-3 p-2 pt-md-5 text-center text-md-left">
                 <!--Side Bar-->
@@ -242,6 +242,14 @@
                     <a href="upcoming_events/index.html" class="sidebar-menu">Upcoming Events</a>
                     <a href="notices/index.html" class="sidebar-menu">Notices</a>
                     <a href="#" class="sidebar-menu-active sidebar-menu">Academic Calender</a>
+                    <div class="mb-2">
+                        <button class="sidebar-submenu-active btn sidebar-submenu pl-5" data-toggle-target="calendar-view">
+                            Calendar View
+                        </button>
+                        <button class="sidebar-submenu btn pl-5" data-toggle-target="table-view">
+                            Table View
+                        </button>
+                    </div>
                 </div>
                 <!--Side Bar-->
             </div>
@@ -250,16 +258,17 @@
                 <!--ADMISSION CALENDAR & OTHER IMPORTANT DATES SPRING 2020-->
                 <section class="container">
                     <h3 class="small-underline mt-5">Admission Calendar & Other Important Dates Spring 2020</h3>
-                    <!--Test-->
-                    <div style="overflow-x: auto;">
+                    <!--Calendar View-->
+                    <div style="overflow-x: auto;" class="sidebar-submenu-toggle" id="calendar-view">
                         <div class="container text-center academic-calender">
                             <iframe class="w-100 h-100"
                                 src="https://calendar.google.com/calendar/embed?wkst=1&amp;bgcolor=%23b6c2f0&amp;ctz=Asia%2FDhaka&amp;src=c2FpZmFub25ub0BnbWFpbC5jb20&amp;src=ZW4uYmQjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%2322AA99&amp;color=%231F753C&amp;showCalendars=1&amp;showDate=1&amp;showTitle=0"
                                 style="border-width:0" frameborder="0" scrolling="no"></iframe>
                         </div>
                     </div>
-                    <!--Test-->
-                    <div class="container mt-5 table-responsive">
+                    <!--Calendar View-->
+                    <!--Table View-->
+                    <div class="container mt-5 table-responsive sidebar-submenu-toggle" id="table-view">
                         <h5>All Dates:</h5>
                         <table class="table table-bordered table-striped text-left">
                             <thead class="thead-dark">
@@ -334,6 +343,7 @@
                             </tbody>
                         </table>
                     </div>
+                    <!--Table View-->
                 </section>
                 <!--ADMISSION CALENDAR & OTHER IMPORTANT DATES SPRING 2020-->
                 <!--Content-->
@@ -406,6 +416,7 @@
     <script type="text/javascript " src="js/jquery.marquee.js "></script>
     <!--Custom Script-->
     <script type="text/javascript " src="js/script.js "></script>
+    <script type="text/javascript " src="js/sidebar_submenu.js"></script>
     <!--Scripts-->
 </body>
 
