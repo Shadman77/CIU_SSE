@@ -351,8 +351,9 @@ body, p, p.lead{
 
 .social-media {
     position: absolute;
-    top: 30%;
+    top: 0px;
     left: 0px;
+    height: 100%;
 }
 
 .social-media>a>img {
@@ -365,21 +366,13 @@ body, p, p.lead{
 
 .qr-code {
     position: absolute;
-    top: 30%;
+    top: 0px;
     right: 0px;
-    background-color: white;
+    height: 100%;
 }
 
-.qr-code>img {
-    width: 100px;
-}
-
-.qr-code>a {
-    color: grey;
-}
-
-.qr-code>a:hover {
-    color: black;
+.qr-code > a > img {
+    width: 120px;
 }
 
 /*QRCode*/
@@ -634,11 +627,11 @@ body, p, p.lead{
         width: 40px;
     }
     /*Social Media*/
-    /*QRCode*/
-    .qr-code>img {
-        width: 80px;
+    /*QrCode*/
+    .qr-code > a > img {
+        width: 100px;
     }
-    /*QRCode*/
+    /*QrCode*/
     /*Events*/
     .event-card {
         width: 350px;
@@ -668,26 +661,11 @@ body, p, p.lead{
         padding-right: 150px;
     }
     /*Logo*/
-    /*Event Carousel*/
-    .event-carousel-img {
-        /*max-height: 250px;*/
-    }
-    /*Event Carousel*/
     /*Notice*/
     .notice {
         max-height: 250px;
     }
     /*Notice*/
-    /*Social Media*/
-    .social-media {
-        top: 28%;
-    }
-    /*Social Media*/
-    /*QRCode*/
-    .qr-code {
-        top: 28%;
-    }
-    /*QRCode*/
     /*Academic Calender Page*/
     .academic-calender {
         width: 100%;
@@ -715,32 +693,21 @@ body, p, p.lead{
         padding-right: 100px;
     }
     /*Logo*/
-    /*Event Carousel*/
-    .event-carousel-img {
-        /*max-height: 200px;*/
-    }
-    /*Event Carousel*/
     /*Notice*/
     .notice {
         max-height: 200px;
     }
     /*Notice*/
     /*Social Media*/
-    .social-media {
-        top: 30%;
-    }
     .social-media>a>img {
         width: 30px;
     }
     /*Social Media*/
-    /*QRCode*/
-    .qr-code {
-        top: 30%;
+    /*QrCode*/
+    .qr-code{
+        display: none !important;
     }
-    .qr-code>img {
-        width: 70px;
-    }
-    /*QRCode*/
+    /*QrCode*/
     .story-img {
         width: 80%;
     }
@@ -760,29 +727,11 @@ body, p, p.lead{
         padding-right: 0px;
     }
     /*Logo*/
-    /*Event Carousel*/
-    .event-carousel-img {
-        /*max-height: 180px;*/
-    }
-    /*Event Carousel*/
     /*Notice*/
     .notice {
         max-height: 180px;
     }
     /*Notice*/
-    /*Social Media*/
-    .social-media {
-        top: 20%;
-    }
-    /*Social Media*/
-    /*QRCode*/
-    .qr-code {
-        top: 20%;
-    }
-    .qr-code>img {
-        width: 50px;
-    }
-    /*QRCode*/
     /*Faculty*/
     .faculty-page-text {
         text-align: center;
