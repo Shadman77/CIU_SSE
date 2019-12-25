@@ -111,6 +111,7 @@ body, p, p.lead{
 /*Table*/
 .table td, .table th{
     padding: .35rem;
+    font-size: 14px;
 }
 .table{
     font-weight: 400 !important;
