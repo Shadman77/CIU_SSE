@@ -573,8 +573,17 @@ body, p, p.lead{
     min-height: 450px;
     text-align: left !important;
 }
+.event-page-card > div > p {
+    font-size: 14px;
+}
 
 /*Events Page*/
+/*News Page*/
+.news-page-card {
+    height: 100%;
+    text-align: left !important;
+}
+/*News Page*/
 
 /*Academic Calender Page*/
 
