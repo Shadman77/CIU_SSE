@@ -583,6 +583,12 @@ body, p, p.lead{
     height: 100%;
     text-align: left !important;
 }
+.news-page-card > div > h5{
+    font-size: 18px;
+}
+.news-page-card > div > p{
+    font-size: 14px;
+}
 /*News Page*/
 
 /*Academic Calender Page*/
