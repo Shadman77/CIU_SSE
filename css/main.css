@@ -1,28 +1,37 @@
 /*For Test Only*/
-.form-inline{
+
+.form-inline {
     display: none !important;
 }
+
 /*For Test Only*/
+
 /*Fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 /*Fonts*/
 
 /*General*/
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif !important;
 }
-h1{
+
+h1 {
     font-size: 180%;
 }
-ul{
+
+ul {
     font-size: 14px;
 }
-body, p, p.lead{
+
+body, p, p.lead {
     font-family: 'Open Sans', sans-serif !important;
 }
-.lead{
+
+.lead {
     font-weight: 400;
     font-size: 15px;
 }
@@ -83,39 +92,27 @@ body, p, p.lead{
     white-space: normal;
 }
 
-.slick-dots {
-    bottom: 0px;
-    padding: 0px 0px 5px 0px;
-    margin-bottom: 0px !important;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
 .slick-dots li button:before {
-    color: black;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.slick-dots li.slick-active button:before {
-    color: black;
-    opacity: 1;
-}
-
-.slick-prev:before, .slick-next:before {
-    color: black;
-}
 .story-img {
     width: 50%;
 }
+
 /*General*/
 
 /*Table*/
-.table td, .table th{
+
+.table td, .table th {
     padding: .35rem;
     font-size: 14px;
 }
-.table{
+
+.table {
     font-weight: 400 !important;
 }
+
 /*Table*/
 
 /*Bootstrap Carousel*/
@@ -199,7 +196,7 @@ body, p, p.lead{
     text-decoration: none;
 }
 
-.latest-news > a, .latest-news-marquee-link {
+.latest-news>a, .latest-news-marquee-link {
     font-size: 14px;
 }
 
@@ -210,7 +207,6 @@ body, p, p.lead{
 .latest-news-marquee {
     overflow: hidden;
 }
-
 
 .latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
     margin: 0px 20px;
@@ -242,14 +238,15 @@ body, p, p.lead{
     /*font-family: 'Carrois Gothic SC', sans-serif;*/
 }
 
-.ciu-moto{
+.ciu-moto {
     font-family: 'Courgette', cursive !important;
 }
 
 /*Logo*/
 
 /*Menu*/
-.navbar{
+
+.navbar {
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -266,15 +263,17 @@ body, p, p.lead{
     margin-right: 10px !important;
     font-size: 14px !important;
 }
-.navbar-nav > .nav-item:hover{
+
+.navbar-nav>.nav-item:hover {
     background-color: #344873;
 }
 
-.navbar-nav > .nav-item{
+.navbar-nav>.nav-item {
     padding-top: 3px;
     padding-bottom: 3px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -288,37 +287,49 @@ body, p, p.lead{
 }
 
 /*Menu*/
+
 /*Footer*/
-.custom-footer > div > p{
+
+.custom-footer>div>p {
     font-size: 12px;
 }
-.custom-footer > div > img{
+
+.custom-footer>div>img {
     width: 100px;
 }
+
 /*Footer*/
+
 /*Sidebar*/
-.sidebar-menu:hover{
+
+.sidebar-menu:hover {
     background-color: black;
     color: white;
     text-decoration: none;
 }
-.sidebar-menu{
+
+.sidebar-menu {
     color: black;
     display: block;
     padding: 5px 10px;
     font-size: 15px;
 }
-.sidebar-menu-active{
+
+.sidebar-menu-active {
     background-color: gray;
     color: white;
 }
+
 /*Sidebar*/
+
 /*Sidebar Submenu Toggle*/
-.sidebar-submenu:focus,.sidebar-submenu:active {
+
+.sidebar-submenu:focus, .sidebar-submenu:active {
     outline: none !important;
     box-shadow: none;
- }
-.sidebar-submenu{
+}
+
+.sidebar-submenu {
     display: block;
     border-radius: 0px;
     width: 100%;
@@ -326,25 +337,31 @@ body, p, p.lead{
     color: black;
     font-size: 15px;
 }
-.sidebar-submenu:hover{
+
+.sidebar-submenu:hover {
     background-color: black;
     color: white;
 }
-.sidebar-submenu-active{
+
+.sidebar-submenu-active {
     color: white;
     background-color: #afafaf;
 }
-.sidebar-submenu-toggle{
+
+.sidebar-submenu-toggle {
     display: none;
 }
+
 /*
 .sidebar-submenu-toggle:first-child{
     display: block;
 }
 */
-.sidebar-submenu-toggle:first-of-type{
+
+.sidebar-submenu-toggle:first-of-type {
     display: block;
 }
+
 /*Sidebar Submenu Toggle*/
 
 /*Social Media*/
@@ -371,16 +388,18 @@ body, p, p.lead{
     height: 100%;
 }
 
-.qr-code > a > img {
+.qr-code>a>img {
     width: 120px;
 }
 
 /*QRCode*/
 
 /*Courses Index*/
-.index-course-btn > p{
+
+.index-course-btn>p {
     font-size: 16px;
 }
+
 /*Index Page Courses*/
 
 /*Facultu*/
@@ -393,7 +412,8 @@ body, p, p.lead{
     background-color: transparent;
     z-index: 1 !important;
 }
-.faculty-card:hover{
+
+.faculty-card:hover {
     z-index: 1 !important;
 }
 
@@ -405,7 +425,8 @@ body, p, p.lead{
     width: 100%;
     max-width: 50vw;
 }
-.faculty-card > .card-body > .card-text{
+
+.faculty-card>.card-body>.card-text {
     font-size: 14px;
 }
 
@@ -428,6 +449,10 @@ body, p, p.lead{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.event-carousel>.slick-prev:before, .event-carousel>.slick-next:before {
+    color: black;
 }
 
 .event-carousel-img {
@@ -459,41 +484,54 @@ body, p, p.lead{
 
 /*Notice*/
 
-/*Events*/
+/*news*/
 
-.event-card {
-    width: 300px;
+.news-card {
     border: none;
     padding: 10px;
     background-color: #e9ecef;
+    margin: 10px;
 }
-.event-card > .card-img-top{
+
+.news-card>.card-img-top {
     height: 200px;
     object-fit: contain;
 }
-.event-card > .card-body{
+
+.news-card>.card-body {
     height: 200px;
     border-top: 2px solid gray;
     margin-top: 10px;
 }
 
-.event-card > .card-body > a {
+.news-card>.card-body>a {
     display: inline-block;
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
 
-.event-card > .card-body > .card-text{
+.news-card>.card-body>.card-text {
     font-size: 14px;
 }
 
-/*Events*/
+.news-carousel > .slick-dots li button:before {
+    color: white !important;
+    /*background-color: coral !important;*/
+}
+.news-carousel > .slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+}
+
+/*news*/
 
 /*Faculty*/
-.faculty-page-text{
+
+.faculty-page-text {
     text-align: left;
 }
+
 /*Faculty*/
 
 /*Map*/
@@ -573,22 +611,28 @@ body, p, p.lead{
     min-height: 450px;
     text-align: left !important;
 }
-.event-page-card > div > p {
+
+.event-page-card>div>p {
     font-size: 14px;
 }
 
 /*Events Page*/
+
 /*News Page*/
+
 .news-page-card {
     height: 100%;
     text-align: left !important;
 }
-.news-page-card > div > h5{
+
+.news-page-card>div>h5 {
     font-size: 18px;
 }
-.news-page-card > div > p{
+
+.news-page-card>div>p {
     font-size: 14px;
 }
+
 /*News Page*/
 
 /*Academic Calender Page*/
@@ -601,6 +645,7 @@ body, p, p.lead{
 /*Academic Calender Page*/
 
 /*Scroll Up Btn*/
+
 #scroll-up-button {
     display: inline-block;
     background-color: #f2b121;
@@ -613,23 +658,26 @@ body, p, p.lead{
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
+    transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-  }
-  #scroll-up-button:hover {
+}
+
+#scroll-up-button:hover {
     cursor: pointer;
     background-color: #f2b121;
-  }
-  #scroll-up-button:active {
+}
+
+#scroll-up-button:active {
     background-color: #002147;
-  }
-  #scroll-up-button.show {
+}
+
+#scroll-up-button.show {
     opacity: 1;
     visibility: visible;
-  }
+}
+
 /*Scroll Up Btn*/
 
 /*Responsive*/
@@ -643,7 +691,7 @@ body, p, p.lead{
     }
     /*Social Media*/
     /*QrCode*/
-    .qr-code > a > img {
+    .qr-code>a>img {
         width: 100px;
     }
     /*QrCode*/
@@ -692,12 +740,12 @@ body, p, p.lead{
     }
     /*Events*/
     /*Navbar*/
-    .dropdown-menu{
+    .dropdown-menu {
         padding-left: 15px;
     }
     /*Navbar*/
     /*Sidebar Subment*/
-    .sidebar-submenu:hover{
+    .sidebar-submenu:hover {
         background-color: #afafaf;
     }
     /*Sidebar Subment*/
@@ -723,7 +771,7 @@ body, p, p.lead{
     }
     /*Social Media*/
     /*QrCode*/
-    .qr-code{
+    .qr-code {
         display: none !important;
     }
     /*QrCode*/
@@ -768,6 +816,12 @@ body, p, p.lead{
         height: 150vw;
     }
     /*Academic Calender Page*/
+    /*News Carousel*/
+    .news-carousel-container{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    /*News Carousel*/
 }
 
 /*Responsive*/

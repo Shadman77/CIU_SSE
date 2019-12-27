@@ -24,8 +24,6 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!--Inertial Slider-->
-    <link rel="stylesheet" href="css/inertialSliderStyle.css">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -229,8 +227,7 @@
                             Resources
                         </a>
                         <div class="dropdown-menu ciu-blue-bg m-0 border-0" aria-labelledby="navbarDropdown">
-                            <a class="nav-link hvr-underline-from-center"
-                                href="notices/index.html">
+                            <a class="nav-link hvr-underline-from-center" href="notices/index.html">
                                 Notices
                             </a><br>
                             <a class="nav-link hvr-underline-from-center"
@@ -484,7 +481,7 @@
                 <!--Upcoming Events-->
                 <div class="col-lg-6 d-flex flex-column justify-content-between">
                     <h1 class="small-underline mt-5">Upcoming Events</h1>
-                    <div class="event-carousel mb-4">
+                    <div class="event-carousel mb-5">
                         <div>
                             <a href="upcoming_events/engineering_night.html">
                                 <img class="event-carousel-img"
@@ -590,115 +587,92 @@
 
     <div class="ciu-blue-bg pt-1">
         <!--News-->
-        <section class="container">
+        <section class="container news-carousel-container">
             <h1 class="small-underline-white">News</h1>
-            <div class="parentSliderContainer">
-                <!--This order of leftArrowButton-tileSliderContainer-rightArrowButton must be ensured since our script uses the sibling porperty to locate the tileSliderContainer when the button is pressed-->
-                <button class="leftArrowButton" type="button">
-                    <img src="img/leftIcon.svg" height="auto" width="100%">
-                </button>
-                <div class="tileSliderContainer">
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event7.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">Workshop on `Outcome Based Education´ (OBE)</h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/seven.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
+            <div class="news-carousel mb-5 mt-5">
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">Workshop on `Outcome Based Education´ (OBE)</h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/seven.html" class="btn btn-outline-secondary">Read More</a>
                     </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event6.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    Students visited Chittagong Online Limited (COL) as a part of
-                                    their `Computer Networks´ course
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/six.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event5.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    Seminar on Photonics by Meher Niger, Lecturer, SSE, CIU
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/five.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event4.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    Standard Chartered Bank and Prothom Alo Inter School & College Programming Contest
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/four.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    Seminar on Deep Fake: Technology and Consequences
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/three.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/event2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    Live-in-Field Experience (LFE), September 2019
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/two.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
-                    <!--Single News-->
-                    <div class="tiles">
-                        <div class="card event-card">
-                            <img class="card-img-top" src="img/news/5dd7e59b34aaaevent1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    1st Workshop on Outcome Based Education
-                                </h6>
-                                <p class="card-text">Date : 2019-11-22</p>
-                                <a href="news/one.html" class="btn btn-outline-secondary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Single News-->
                 </div>
-                <button class="rightArrowButton" type="button">
-                    <img src="img/rightIcon.svg" height="auto" width="100%">
-                </button>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Students visited Chittagong Online Limited (COL) as a part of
+                            their `Computer Networks´ course
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/six.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Seminar on Photonics by Meher Niger, Lecturer, SSE, CIU
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/five.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Standard Chartered Bank and Prothom Alo Inter School & College Programming Contest
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/four.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Seminar on Deep Fake: Technology and Consequences
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/three.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/event2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            Live-in-Field Experience (LFE), September 2019
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/two.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
+                <!--Single News-->
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/news/5dd7e59b34aaaevent1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title">
+                            1st Workshop on Outcome Based Education
+                        </h6>
+                        <p class="card-text">Date : 2019-11-22</p>
+                        <a href="news/one.html" class="btn btn-outline-secondary">Read More</a>
+                    </div>
+                </div>
+                <!--Single News-->
             </div>
             <div class="text-center">
                 <a href="news/index.html" class="btn btn-warning ciu-yellow-bg">View All</a>
@@ -721,7 +695,8 @@
                         +88-031-611263 <i class="fas fa-phone-volume"></i>
                         +88-031-622946, 611262, 636484<br></p>
                     <p>© Chittagong Independent University - School of Science & Engineering</p>
-                    <p>Developed By: <a href="https://www.linkedin.com/in/shadman-saif/" class="text-white">Shadman Saif Anonno</a></p>
+                    <p>Developed By: <a href="https://www.linkedin.com/in/shadman-saif/" class="text-white">Shadman Saif
+                            Anonno</a></p>
                     <!--Social Media Icons-->
                     <p>
                         <a class="btn p-0 hvr-grow text-light"
@@ -765,8 +740,6 @@
     <script type="text/javascript " src="js/jquery.marquee.js "></script>
     <!--Slick Carousel-->
     <script type="text/javascript " src="slick/slick.min.js "></script>
-    <!--Inertial Slider-->
-    <script type="text/javascript " src="js/inertialSliderScript.js "></script>
     <!--Marquee Script-->
     <script type="text/javascript" src="js/index-page.js"></script>
     <!--Custom Script-->

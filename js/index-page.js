@@ -16,7 +16,7 @@ $('.notice').marquee({
 });
 
 /**Event Carousel */
-$(document).ready(function() {
+$(document).ready(function () {
     $('.event-carousel').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -29,3 +29,30 @@ $(document).ready(function() {
         cssEase: 'linear'
     })
 })
+
+/**News Carousel */
+$('.news-carousel').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 578,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
