@@ -532,6 +532,16 @@ body, p, p.lead {
 .faculty-page-text {
     text-align: left;
 }
+.faculty-page-text > a > h3{
+    font-size: 20px;
+}
+.faculty-page-text > p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.faculty-page-text > a{
+    font-size: 14px;
+}
 
 /*Faculty*/
 
