@@ -292,6 +292,7 @@ body, p, p.lead {
 
 .custom-footer>div>p {
     font-size: 12px;
+    margin-bottom: 8px;
 }
 
 .custom-footer>div>img {
@@ -374,7 +375,7 @@ body, p, p.lead {
 }
 
 .social-media>a>img {
-    width: 50px;
+    width: 40px;
 }
 
 /*Social Media*/
@@ -662,6 +663,7 @@ body, p, p.lead {
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    font-size: 10px;
 }
 
 #scroll-up-button:hover {
