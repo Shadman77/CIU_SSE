@@ -228,6 +228,7 @@ body, p, p.lead {
     font-family: 'Alegreya Sans SC', sans-serif;
     /*font-family: 'Carrois Gothic SC', sans-serif;*/
     font-weight: bolder;
+    margin-bottom: 0px !important;
 }
 
 .head-ciu {
