@@ -372,10 +372,11 @@ body, p, p.lead {
     top: 0px;
     left: 0px;
     height: 100%;
+    z-index: 100 !important;
 }
 
 .social-media>a>img {
-    width: 40px;
+    width: 35px;
 }
 
 /*Social Media*/
@@ -387,6 +388,7 @@ body, p, p.lead {
     top: 0px;
     right: 0px;
     height: 100%;
+    z-index: 100 !important;
 }
 
 .qr-code>a>img {
@@ -403,7 +405,7 @@ body, p, p.lead {
 
 /*Index Page Courses*/
 
-/*Facultu*/
+/*Faculty*/
 
 .faculty-card {
     width: 200px;
@@ -412,6 +414,9 @@ body, p, p.lead {
     /*background-color: #e9ecef;*/
     background-color: transparent;
     z-index: 1 !important;
+}
+.faculty-card > img{
+    width: 80%;
 }
 
 .faculty-card:hover {
@@ -431,7 +436,7 @@ body, p, p.lead {
     font-size: 14px;
 }
 
-/*Facultu*/
+/*Faculty*/
 
 /*Upcoming Events*/
 
