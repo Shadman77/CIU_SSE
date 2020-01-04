@@ -41,14 +41,14 @@ $('.news-carousel').slick({
     slidesToScroll: 3,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
             }
         },
         {
-            breakpoint: 578,
+            breakpoint: 620,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1

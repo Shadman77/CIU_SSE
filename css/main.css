@@ -295,7 +295,7 @@ body, p, p.lead {
     margin-bottom: 8px;
 }
 
-.custom-footer>div>img {
+.custom-footer>div>div>div>img {
     width: 100px;
 }
 
