@@ -514,13 +514,15 @@ body, p, p.lead {
     height: 200px;
     border-top: 2px solid gray;
     margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .news-card>.card-body>a {
     display: inline-block;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 10px;
 }
 
 .news-card>.card-body>.card-text {
