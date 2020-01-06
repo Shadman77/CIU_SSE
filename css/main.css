@@ -467,22 +467,33 @@ body, p, p.lead {
     color: black;
 }
 
-.event-carousel-img {
-    /*Height of all images must be the same or else it will not look good*/
-    width: 100%;
-    /*max-height: 200px;*/
-    object-fit: cover;
+.index-event-card {
+    padding: 10px;
+    margin: 10px;
 }
 
-.event-content>h1 {
-    font-family: 'Tangerine', cursive;
-    font-size: 50px;
+.index-event-card>.card-img-top {
+    height: 150px;
+    object-fit: contain;
 }
 
-.event-content>a {
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
+.index-event-card>.card-body {
+    height: 150px;
+    border-top: 2px solid gray;
+    margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.index-event-card>.card-body>a {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.index-event-card>.card-body>.card-text {
+    font-size: 14px;
 }
 
 /*Upcoming Events*/
@@ -491,6 +502,7 @@ body, p, p.lead {
 
 .notice {
     max-height: 200px;
+    /*font-size: 14px !important;*/
     overflow: hidden;
 }
 
