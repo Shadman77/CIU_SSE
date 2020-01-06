@@ -501,7 +501,7 @@ body, p, p.lead {
 /*Notice*/
 
 .notice {
-    max-height: 200px;
+    max-height: 250px;
     /*font-size: 14px !important;*/
     overflow: hidden;
 }
