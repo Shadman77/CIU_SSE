@@ -65,7 +65,7 @@ body, p, p.lead {
     height: 1px;
     bottom: -20px;
     left: calc(50% - 25px);
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
 }
 
 .small-underline-white {
@@ -84,7 +84,7 @@ body, p, p.lead {
     height: 1px;
     bottom: -20px;
     left: calc(50% - 25px);
-    border-bottom: 5px solid white;
+    border-bottom: 3px solid white;
 }
 
 .card-text, .card-title {
