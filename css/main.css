@@ -824,6 +824,20 @@ body, p, p.lead {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
+    /*General*/
+    /*
+    .container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    */
+    /*General*/
+    /*Courses*/
+    .course-tabs{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    /*Courses*/
     /*Notice*/
     .notice {
         max-height: 180px;
