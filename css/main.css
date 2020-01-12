@@ -101,7 +101,8 @@ body, p, p.lead {
 }
 
 /*Menu Dropdown Arrow*/
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     display: none;
 }
 
@@ -122,13 +123,13 @@ body, p, p.lead {
 
 /*Bootstrap Carousel*/
 
+/*
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 60px;
     width: 60px;
     outline: black;
     background-size: 100%, 100%;
     border-radius: 50%;
-    /*border: 1px solid black;*/
     background-color: rgba(0, 0, 0, 0.5);
     background-image: none;
 }
@@ -146,6 +147,7 @@ body, p, p.lead {
     font-weight: bolder;
     color: white;
 }
+*/
 
 /*Bootstrap Carousel*/
 
@@ -155,7 +157,7 @@ body, p, p.lead {
     color: #002147;
     margin-bottom: 2px;
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .top-menu-ul>li>a:before {
@@ -180,8 +182,6 @@ body, p, p.lead {
 
 .top-menu-ul>li {
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 /*Top Menu*/
@@ -223,7 +223,7 @@ body, p, p.lead {
 /*Logo*/
 
 .logo {
-    height: 100px;
+    height: 120px;
 }
 
 .head-sse {
@@ -233,11 +233,10 @@ body, p, p.lead {
     font-family: 'Alegreya Sans SC', sans-serif;
     /*font-family: 'Carrois Gothic SC', sans-serif;*/
     font-weight: bolder;
-    margin-bottom: 0px !important;
 }
 
 .head-ciu {
-    font-size: 20px;
+    font-size: 25px;
     /*font-family: 'Courier Prime', monospace;*/
     font-variant: small-caps;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -421,7 +420,8 @@ body, p, p.lead {
     background-color: transparent;
     z-index: 1 !important;
 }
-.faculty-card > img{
+
+.faculty-card>img {
     width: 80%;
 }
 
@@ -541,11 +541,12 @@ body, p, p.lead {
     font-size: 14px;
 }
 
-.news-carousel > .slick-dots li button:before {
+.news-carousel>.slick-dots li button:before {
     color: white !important;
     /*background-color: coral !important;*/
 }
-.news-carousel > .slick-dots li.slick-active button:before {
+
+.news-carousel>.slick-dots li.slick-active button:before {
     color: white;
     opacity: 1;
 }
@@ -557,14 +558,17 @@ body, p, p.lead {
 .faculty-page-text {
     text-align: left;
 }
-.faculty-page-text > a > h3{
+
+.faculty-page-text>a>h3 {
     font-size: 20px;
 }
-.faculty-page-text > p{
+
+.faculty-page-text>p {
     font-size: 14px;
     margin-bottom: 0px;
 }
-.faculty-page-text > a{
+
+.faculty-page-text>a {
     font-size: 14px;
 }
 
@@ -722,6 +726,11 @@ body, p, p.lead {
 /* Large devices (desktops, less than 1200px)*/
 
 @media (max-width: 1199.98px) {
+    /*Logo*/
+    .logo {
+        height: 140px;
+    }
+    /*Logo*/
     /*Social Media*/
     .social-media>a>img {
         width: 40px;
@@ -751,15 +760,6 @@ body, p, p.lead {
 /* Medium devices (tablets, less than 992px)*/
 
 @media (max-width: 991.98px) {
-    /*Logo*/
-    .logo-head-text {
-        text-align: center;
-    }
-    .logo-head-nav {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    /*Logo*/
     /*Notice*/
     .notice {
         max-height: 250px;
@@ -791,12 +791,6 @@ body, p, p.lead {
 /* Small devices (landscape phones, less than 768px)*/
 
 @media (max-width: 767.98px) {
-    /*Logo*/
-    .logo-head-nav {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    /*Logo*/
     /*Notice*/
     .notice {
         max-height: 200px;
@@ -825,12 +819,6 @@ body, p, p.lead {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    /*Logo*/
-    .logo-head-nav {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    /*Logo*/
     /*Notice*/
     .notice {
         max-height: 180px;
@@ -854,7 +842,7 @@ body, p, p.lead {
     }
     /*Academic Calender Page*/
     /*News Carousel*/
-    .news-carousel-container{
+    .news-carousel-container {
         padding-left: 45px;
         padding-right: 45px;
     }
