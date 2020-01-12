@@ -15,7 +15,16 @@
 
 /*General*/
 
-.row{
+.colored-line {
+    height: 4px;
+    background: rgb(0, 33, 71);
+    /*background: linear-gradient(90deg, rgba(0,33,71,1) 10%, rgba(242,177,33,1) 50%, rgba(0,33,71,1) 90%);*/
+    /*background: linear-gradient(90deg, rgba(0,33,71,1) 0%, rgba(242,177,33,1) 30%, rgba(0,33,71,1) 100%);*/
+    /*background: linear-gradient(90deg, rgba(242,177,33,1) 30%, rgba(0,33,71,1) 100%);*/
+    background: linear-gradient(90deg, rgba(242,177,33,1) 20%, rgba(0,33,71,1) 100%);
+}
+
+.row {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
@@ -644,10 +653,6 @@ body, p, p.lead {
     padding: 10px !important;
 }
 
-.course-tabs:hover {
-    text-decoration: underline;
-}
-
 /*Courses Page*/
 
 /*Events Page*/
@@ -833,7 +838,7 @@ body, p, p.lead {
     */
     /*General*/
     /*Courses*/
-    .course-tabs{
+    .course-tabs {
         margin-left: 5px !important;
         margin-right: 5px !important;
     }
