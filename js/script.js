@@ -55,5 +55,28 @@ $(window).scroll(function () {
 
 scroll_up_btn.on('click', function (e) {
     e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '300');
+    $('html, body').animate({ scrollTop: 0 }, '300');
+});
+
+/**Faculty */
+$(document).ready(function () {
+    $(".faculty-page-text").hover(
+        function () {
+            $(this).prev('div').children('img').animate({
+                marginLeft: '-=10px',
+                marginTop: '-=10px',
+                height: '+=20px',
+                width: '+=20px'
+              });
+            console.log('Triggered');
+        },
+        function () {
+            $(this).prev('div').children('img').animate({
+                marginLeft: '+=10px',
+                marginTop: '+=10px',
+                height: '-=20px',
+                width: '-=20px'
+              });
+        }
+    );
 });
