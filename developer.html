@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>School of Science & Engineering | Chittagong Independent University | About</title>
+    <title>School of Science & Engineering | Chittagong Independent University | Home</title>
     <link rel="icon" type="image/png" href="img/ciu_logo.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,8 +24,6 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!--Inertial Slider-->
-    <link rel="stylesheet" href="css/inertialSliderStyle.css">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -35,7 +36,7 @@
     <!--Colored Border-->
     <!--Menu and Latest News-->
     <section>
-        <!--Logo Section-->
+        <!--Top Section-->
         <div class="container pt-2 pb-2">
             <div class="row">
                 <!--CIU LOGO-->
@@ -48,8 +49,8 @@
                 <div
                     class="col-xl-10 col-lg-8 pl-0 pr-0 pl-xl-3 d-flex flex-column justify-content-center text-center text-xl-left text-lg-right">
                     <div class="row">
-                         <!--CIU Heading-->
-                         <div class="col-xl-8 p-0">
+                        <!--CIU Heading-->
+                        <div class="col-xl-8 p-0">
                             <h1 class="head-sse m-0">
                                 <a href="index.html" class="text-dark">
                                     School of Science & Engineering
@@ -91,14 +92,10 @@
                                         Calendar</a>
                                 </li>
                                 <li>|</li>
-                                <!--<li><a href="notices/index.html" class="hvr-underline-from-center">Notices</a></li>-->
                                 <li><a href="upcoming_events/index.html" class="hvr-underline-from-center">Upcoming
                                         Events</a>
                                 </li>
                                 <li>|</li>
-                                <!--<li><a href="news/index.html" class="hvr-underline-from-center">News</a></li>-->
-                                <!--<li><a href="#" class="hvr-underline-from-center">Library</a></li>-->
-                                <!--<li><a href="#" class="hvr-underline-from-center">Alumni</a></li>-->
                                 <li><a href="contact.html" class="hvr-underline-from-center">Contact</a></li>
                             </ul>
                             <!--Top Menu-->
@@ -107,7 +104,7 @@
                 </div>
             </div>
         </div>
-        <!--Logo Section-->
+        <!--Top Section-->
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark ciu-blue-bg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -209,11 +206,6 @@
                             <a class="nav-link hvr-underline-from-center" href="#">
                                 iSEC
                             </a><br>
-                            <!--
-                            <a class="nav-link hvr-underline-from-center" href="#">
-                                CIU Competitive Programming Club
-                            </a><br>
-                            -->
                         </div>
                     </li>
                     <!--Activity-->
@@ -253,194 +245,35 @@
     </section>
     <!--Menu and Latest News-->
 
-    <!--Hero Area-->
-    <section class="container-fluid text-center m-0 p-0">
-        <div class="card bg-dark text-white border-0">
-            <img class="card-img hero-img" src="img/slider-1.jpg" alt="Card image">
-            <div class="card-img-overlay d-flex align-items-center justify-content-center hero-text">
-                <h1>About SSE</h1>
+    <!--Developer-->
+    <section class="container p-0 mb-5">
+        <h1 class="small-underline mt-5">Developers</h1>
+        <div class="row">
+            <!--Single Student-->
+            <div class="col-md-6">
+                <div class="row mt-4 mb-4">
+                    <div class="col-sm-4 text-center">
+                        <img class="rounded-circle faculty-page-img"
+                            src="img/anonno.JPG" alt="Card image cap">
+                    </div>
+                    <div class="col-sm-8 faculty-page-text">
+                        <a href="#">
+                            <h3>Shadman Saif Anonno</h3>
+                        </a>
+                        <p>Student (ID: 16202007)<br>School of Science & Engineering<br>Chittagong Independent University</p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/shadman-saif/"><i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i></a>
+                        </p>
+                    </div>
+                </div>
             </div>
+            <!--Single Student-->
         </div>
     </section>
-    <!--Hero Area-->
-
-    <div class="container mb-5">
-        <div class="row">
-            <div class="col-lg-3 p-2 pt-md-5">
-                <!--Side Bar-->
-                <div class="bg-light border border-secondary rounded-lg">
-                    <a href="#" class="sidebar-menu-active sidebar-menu border border-secondary">About SSE</a>
-                    <div>
-                        <button class="sidebar-submenu-active btn sidebar-submenu pl-5 border border-secondary" data-toggle-target="background">
-                            Background
-                        </button>
-                        <button class="sidebar-submenu btn pl-5 border border-secondary" data-toggle-target="mission">
-                            Mission
-                        </button>
-                        <button class="sidebar-submenu btn pl-5 border border-secondary" data-toggle-target="vision">
-                            Vision
-                        </button>
-                        <button class="sidebar-submenu btn pl-5 border border-secondary" data-toggle-target="objectives">
-                            Objectives
-                        </button>
-                        <button class="sidebar-submenu btn pl-5 borde border-secondary" data-toggle-target="activities">
-                            Activities
-                        </button>
-                    </div>
-                    <a href="head_of_school.html" class="sidebar-menu border border-secondary">Message from the Dean</a>
-                </div>
-                <!--Side Bar-->
-            </div>
-            <div class="col-lg-9 text-justify p-0">
-                <!--Content-->
-                <!--Background-->
-                <section class="container sidebar-submenu-toggle" id="background">
-                    <h1 class="small-underline mt-5">Background</h1>
-                    <p class="lead">
-                        The School of Science and Engineering (SSE), previously named School of Engineering & Computer
-                        Science
-                        (SECS), traces its root back to 1993 when Independent University, Bangladesh (IUB) was founded
-                        and its outer
-                        campus in Chittagong was emerged. Later in 2013, Chittagong Independent University (CIU) was
-                        established and
-                        the journey of SSE took off with new goals. Today this school continues to be one of the major
-                        schools of
-                        CIU aiming to produce world class engineering graduates.
-                    </p>
-                    <p class="lead">
-
-                        In addition to offering B.Sc. in Computer Science & Engineering (CSE), Electrical & Electronic Engineering (EEE)
-                        &
-                        Electronics & Telecommunication Engineering (ETE), SSE has added one Post Graduate
-                        Diploma (PGD)
-                        program in Information and Communication Technology (ICT).
-                    </p>
-                    <p class="lead">
-                        Considering only permanent faculties currently the school’s teacher student ratio is 1:14.
-                        Adjunct faculties
-                        from Chittagong University of Engineering and Technology (CUET) and Chittagong University (CU)
-                        have made the
-                        school vibrant and diversified. In order to meet the quality and competency of our students we
-                        regularly
-                        arrange seminars and workshops, a week or month long training programs (such as Android Apps
-                        Development,
-                        Robotics, Programmable Logic Controller (PLC) and Industrial Automation, Advanced Programming
-                        etc.) through
-                        our clubs. Moreover, arranging programs like National High School Programming Contest (NHSPC)
-                        2015 and also
-                        Inter School & Colleges Programming Contest, Workshop on Programming for High School and College
-                        teachers
-                        etc, we have shown our commitment towards local society too. Ongoing monthly seminars from
-                        faculties have
-                        inspired the academics and students.
-                    </p>
-                </section>
-                <!--Background-->
-
-                <!--Mission-->
-                <section class="container sidebar-submenu-toggle" id="mission">
-                    <h1 class="small-underline mt-5">Mission</h1>
-                    <p class="lead">
-                        SSE will support the development of our country by discovering and advancing knowledge through
-                        scholarship,
-                        dissemination of knowledge through teaching and outreach, creative experimentation of ideas and
-                        concepts of
-                        technology needs. Excellence and diversity in research are essential to our mission built on our
-                        strong
-                        collaboration with industry and government research laboratories. SSE foster, create and develop
-                        capacity
-                        amongst students to become future leaders in academia, government, industries and
-                        entrepreneurial pursuit
-                        through a rigorous curriculum of theory and application that develops the ability to solve
-                        problems
-                        individuality and in teams.
-                    </p>
-                </section>
-                <!--Mission-->
-
-                <!--Vision-->
-                <section class="container sidebar-submenu-toggle" id="vision">
-                    <h1 class="small-underline mt-5">Vision</h1>
-                    <p class="lead">
-                        We envisioned CIU to be known as the number one destination in the country for science and
-                        engineering
-                        education. At SSE we facilitate our students with contemporary and rigorous educational
-                        experiences
-                        containing modern curriculum, up-to-date lab and field work. We focus to provide an atmosphere
-                        that
-                        facilitates personal commitment to the educational success of students in an environment that
-                        values
-                        diversity and community by promoting education and research partnerships with different
-                        universities and
-                        industries. We have designed undergraduate programs that integrate global awareness,
-                        communication skills
-                        and team building across the curriculum. Introducing Post Graduate program in different
-                        disciplines
-                        departments would be one of our next central activities within shortest possible time focusing
-                        internationally recognized research programs Graduate education and training that prepares
-                        students for
-                        interdisciplinary engineering research and advanced problem solving. We target to build
-                        leadership and
-                        service to meet society’s needs.
-                    </p>
-                </section>
-                <!--Vision-->
-
-                <!--Objectives-->
-                <section class="container sidebar-submenu-toggle" id="objectives">
-                    <h1 class="small-underline mt-5">Objectives</h1>
-                    <p class="lead">
-                        The objectives of SSE are to disseminate, create and advance knowledge wisdom and understanding
-                        and to offer
-                        education of the high standard by teaching, research, training and extension program. Our effort
-                        is to give
-                        effect to the spirit of national and international good will, friendship and partnership, as
-                        well as the
-                        desire of our people for the overall benefits off society and sustainability of engineering
-                        technology know
-                        how. Furthermore, our objectives include-
-                    </p>
-                    <ul>
-                        <li>Develop interdisciplinary, problem-based academic program aligned with engineering and
-                            technical
-                            education.</li>
-                        <li>Integrate IT based resources from around the world.</li>
-                        <li>Create applied, evidence-given research activities on problem solving of national and
-                            international
-                            forum.</li>
-                    </ul>
-                </section>
-                <!--Objectives-->
-
-                <!--Activities-->
-                <section class="container sidebar-submenu-toggle" id="activities">
-                    <h1 class="small-underline mt-5">Activities</h1>
-                    <p class="lead">
-                        SSE students are associated with several clubs (e.g. iSEC, Robotics Club) of CIU for their
-                        extracurricular
-                        activities. The club which is mostly linked with SSE activities is Independent Science &
-                        Engineering Club
-                        (iSEC). The SSE activities are divided into following sectors which are important for a student
-                        to enhance
-                        his/her knowledge to meet the demand of modern technological world.
-                    </p>
-                    <ul>
-                        <li>Seminar/Workshop.</li>
-                        <li>Study Tour.</li>
-                        <li>Programming Contest.</li>
-                        <li>Senior Project.</li>
-                        <li>Campus Employment Program.</li>
-                        <li>Live in Field Experience.</li>
-                    </ul>
-                </section>
-                <!--Activities-->
-                <!--Content-->
-            </div>
-        </div>
-    </div>
-
-    <!--Footer-->
-    <div class="ciu-blue-bg">
+    <!--Developer-->
+    
+   <!--Footer-->
+   <div class="ciu-blue-bg">
         <!--Footer-->
         <section class="container pb-2">
             <div class="row custom-footer">
@@ -503,7 +336,6 @@
     </a>
     <!--Scroll Up Button-->
 
-    <!--Scripts-->
     <!--jQuery Script-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -517,10 +349,12 @@
         crossorigin="anonymous "></script>
     <!--jQuery Marquee Plugin-->
     <script type="text/javascript " src="js/jquery.marquee.js "></script>
+    <!--Slick Carousel-->
+    <script type="text/javascript " src="slick/slick.min.js "></script>
+    <!--Marquee Script-->
+    <script type="text/javascript" src="js/index-page.js"></script>
     <!--Custom Script-->
     <script type="text/javascript " src="js/script.js "></script>
-    <script type="text/javascript" src="js/sidebar_submenu.js"></script>
-    <!--Scripts-->
 </body>
 
 </html>

@@ -2,9 +2,9 @@
 /**All the class need is to be a block element and overflow = hidden */
 $('.notice').marquee({
     //speed in milliseconds of the marquee
-    duration: 5000,
+    duration: 7000,
     //gap in pixels between the tickers
-    gap: 50,
+    gap: 0,
     //time in milliseconds before the marquee will start animating
     delayBeforeStart: 0,
     //'left' or 'right'
@@ -14,11 +14,19 @@ $('.notice').marquee({
     pauseOnHover: true,
     allowCss3Support: true
 });
+$('.pause').click(function(e){
+    e.preventDefault();
+    $('.notice').trigger('pause');
+});
+$('.resume').click(function(e){
+    e.preventDefault();
+    $('.notice').trigger('resume');
+});
 
 /**Event Carousel */
 $(document).ready(function () {
     $('.event-carousel').slick({
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,

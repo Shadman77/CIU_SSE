@@ -430,7 +430,7 @@ body, p, p.lead {
 /*Faculty*/
 
 .faculty-card {
-    width: 200px;
+    max-width: 250px;
     border: none;
     padding: 10px;
     /*background-color: #e9ecef;*/
@@ -439,7 +439,7 @@ body, p, p.lead {
 }
 
 .faculty-card>img {
-    width: 80%;
+    width: 60%;
 }
 
 .faculty-card:hover {
@@ -490,7 +490,7 @@ body, p, p.lead {
 }
 
 .index-event-card>.card-img-top {
-    height: 150px;
+    /*height: 150px;*/
     object-fit: contain;
 }
 
