@@ -461,6 +461,12 @@ body, p, p.lead {
 
 /*Faculty*/
 
+/*Notices*/
+.pause:hover, .resume:hover{
+    cursor: pointer;
+}
+/*Notices*/
+
 /*Upcoming Events*/
 
 .event-content {
