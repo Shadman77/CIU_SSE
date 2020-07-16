@@ -62,21 +62,24 @@ scroll_up_btn.on('click', function (e) {
 $(document).ready(function () {
     $(".faculty-page-text").hover(
         function () {
-            $(this).prev('div').children('img').animate({
-                marginLeft: '-=10px',
-                marginTop: '-=10px',
-                height: '+=20px',
-                width: '+=20px'
-              });
-            console.log('Triggered');
+            if (window.innerWidth > 700) {
+                $(this).prev('div').children('img').animate({
+                    marginLeft: '-=10px',
+                    marginTop: '-=10px',
+                    height: '+=20px',
+                    width: '+=20px'
+                });
+            }
         },
         function () {
-            $(this).prev('div').children('img').animate({
-                marginLeft: '+=10px',
-                marginTop: '+=10px',
-                height: '-=20px',
-                width: '-=20px'
-              });
+            if (window.innerWidth > 700) {
+                $(this).prev('div').children('img').animate({
+                    marginLeft: '+=10px',
+                    marginTop: '+=10px',
+                    height: '-=20px',
+                    width: '-=20px'
+                });
+            }
         }
     );
 });
