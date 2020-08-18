@@ -501,11 +501,12 @@ body, p, p.lead {
 }
 
 .index-event-card>.card-body {
-    height: 150px;
+    /*min-height: 150px;*/
     border-top: 2px solid gray;
     margin-top: 10px;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    padding-bottom: 45px;
 }
 
 .index-event-card>.card-body>a {
