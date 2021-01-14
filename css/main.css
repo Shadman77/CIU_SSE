@@ -4,27 +4,33 @@
     display: none !important;
 }
 
+
 /*For Test Only*/
+
 
 /*Fonts*/
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 /*Fonts*/
 
+
 /*General*/
+
 html {
     scroll-behavior: smooth;
-  }
-.table td{
+}
+
+.table td {
     vertical-align: middle !important;
 }
 
 .colored-line {
     height: 4px;
     background: rgb(0, 33, 71);
-    background: linear-gradient(90deg, rgba(242,177,33,1) 20%, rgba(0,33,71,1) 100%);
+    background: linear-gradient(90deg, rgba(242, 177, 33, 1) 20%, rgba(0, 33, 71, 1) 100%);
 }
 
 .row {
@@ -32,7 +38,12 @@ html {
     margin-right: 0px !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Playfair Display', serif !important;
 }
 
@@ -44,7 +55,9 @@ ul {
     font-size: 14px;
 }
 
-body, p, p.lead {
+body,
+p,
+p.lead {
     font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -104,7 +117,8 @@ body, p, p.lead {
     border-bottom: 3px solid white;
 }
 
-.card-text, .card-title {
+.card-text,
+.card-title {
     word-wrap: break-word;
     white-space: normal;
 }
@@ -117,17 +131,21 @@ body, p, p.lead {
     width: 50%;
 }
 
+
 /*Menu Dropdown Arrow*/
 
 .dropdown-toggle::after {
     display: none;
 }
 
+
 /*General*/
+
 
 /*Table*/
 
-.table td, .table th {
+.table td,
+.table th {
     padding: .35rem;
     font-size: 14px;
 }
@@ -136,9 +154,12 @@ body, p, p.lead {
     font-weight: 400 !important;
 }
 
+
 /*Table*/
 
+
 /*Bootstrap Carousel*/
+
 
 /*
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -166,7 +187,9 @@ body, p, p.lead {
 }
 */
 
+
 /*Bootstrap Carousel*/
+
 
 /*Top Menu*/
 
@@ -201,7 +224,9 @@ body, p, p.lead {
     display: inline-block;
 }
 
+
 /*Top Menu*/
+
 
 /*Latest News*/
 
@@ -213,12 +238,15 @@ body, p, p.lead {
     text-align: center;
 }
 
-.latest-news>a, .latest-news>a:active, .latest-news>a:hover {
+.latest-news>a,
+.latest-news>a:active,
+.latest-news>a:hover {
     color: white;
     text-decoration: none;
 }
 
-.latest-news>a, .latest-news-marquee-link {
+.latest-news>a,
+.latest-news-marquee-link {
     font-size: 14px;
 }
 
@@ -230,12 +258,16 @@ body, p, p.lead {
     overflow: hidden;
 }
 
-.latest-news-marquee-link, .latest-news-marquee-link:active, .latest-news-marquee-link:hover {
+.latest-news-marquee-link,
+.latest-news-marquee-link:active,
+.latest-news-marquee-link:hover {
     margin: 0px 20px;
     color: #002147;
 }
 
+
 /*Latest News*/
+
 
 /*Logo*/
 
@@ -264,7 +296,9 @@ body, p, p.lead {
     font-family: 'Courgette', cursive !important;
 }
 
+
 /*Logo*/
+
 
 /*Menu*/
 
@@ -308,7 +342,9 @@ body, p, p.lead {
     border-radius: 0px;
 }
 
+
 /*Menu*/
+
 
 /*Footer*/
 
@@ -321,7 +357,9 @@ body, p, p.lead {
     width: 100px;
 }
 
+
 /*Footer*/
+
 
 /*Sidebar*/
 
@@ -343,11 +381,14 @@ body, p, p.lead {
     color: white;
 }
 
+
 /*Sidebar*/
+
 
 /*Sidebar Submenu Toggle*/
 
-.sidebar-submenu:focus, .sidebar-submenu:active {
+.sidebar-submenu:focus,
+.sidebar-submenu:active {
     outline: none !important;
     box-shadow: none;
 }
@@ -375,6 +416,7 @@ body, p, p.lead {
     display: none;
 }
 
+
 /*
 .sidebar-submenu-toggle:first-child{
     display: block;
@@ -385,7 +427,9 @@ body, p, p.lead {
     display: block;
 }
 
+
 /*Sidebar Submenu Toggle*/
+
 
 /*Social Media*/
 
@@ -401,7 +445,9 @@ body, p, p.lead {
     width: 35px;
 }
 
+
 /*Social Media*/
+
 
 /*QRCode*/
 
@@ -417,15 +463,20 @@ body, p, p.lead {
     width: 120px;
 }
 
+
 /*QRCode*/
+
 
 /*Courses Index*/
 
 .index-course-btn>p {
     font-size: 16px;
+    white-space: normal;
 }
 
+
 /*Index Page Courses*/
+
 
 /*Faculty*/
 
@@ -446,7 +497,8 @@ body, p, p.lead {
     z-index: 1 !important;
 }
 
-.faculty-card:active, .faculty-card:hover {
+.faculty-card:active,
+.faculty-card:hover {
     text-decoration: none;
 }
 
@@ -459,13 +511,20 @@ body, p, p.lead {
     font-size: 14px;
 }
 
+
 /*Faculty*/
 
+
 /*Notices*/
-.pause:hover, .resume:hover{
+
+.pause:hover,
+.resume:hover {
     cursor: pointer;
 }
+
+
 /*Notices*/
+
 
 /*Upcoming Events*/
 
@@ -486,7 +545,8 @@ body, p, p.lead {
     margin-right: auto;
 }
 
-.event-carousel>.slick-prev:before, .event-carousel>.slick-next:before {
+.event-carousel>.slick-prev:before,
+.event-carousel>.slick-next:before {
     color: black;
 }
 
@@ -520,7 +580,9 @@ body, p, p.lead {
     font-size: 14px;
 }
 
+
 /*Upcoming Events*/
+
 
 /*Notice*/
 
@@ -530,7 +592,9 @@ body, p, p.lead {
     overflow: hidden;
 }
 
+
 /*Notice*/
+
 
 /*news*/
 
@@ -575,7 +639,9 @@ body, p, p.lead {
     opacity: 1;
 }
 
+
 /*news*/
+
 
 /*Faculty*/
 
@@ -596,7 +662,9 @@ body, p, p.lead {
     font-size: 14px;
 }
 
+
 /*Faculty*/
+
 
 /*Map*/
 
@@ -614,15 +682,21 @@ body, p, p.lead {
     width: 100%;
 }
 
+
 /*Map*/
+
 
 /*sitemap*/
 
-.sitemap>p>a, .sitemap>p>a:hover, .sitemap>p>a:active {
+.sitemap>p>a,
+.sitemap>p>a:hover,
+.sitemap>p>a:active {
     color: white;
 }
 
+
 /*sitemap*/
+
 
 /*Hero*/
 
@@ -641,7 +715,9 @@ body, p, p.lead {
     max-height: 15vw;
 }
 
+
 /*Hero*/
+
 
 /*Courses Page*/
 
@@ -663,7 +739,9 @@ body, p, p.lead {
     padding: 10px !important;
 }
 
+
 /*Courses Page*/
+
 
 /*Events Page*/
 
@@ -676,7 +754,9 @@ body, p, p.lead {
     font-size: 14px;
 }
 
+
 /*Events Page*/
+
 
 /*News Page*/
 
@@ -693,7 +773,9 @@ body, p, p.lead {
     font-size: 14px;
 }
 
+
 /*News Page*/
+
 
 /*Academic Calender Page*/
 
@@ -702,7 +784,9 @@ body, p, p.lead {
     height: 50vw;
 }
 
+
 /*Academic Calender Page*/
+
 
 /*Scroll Up Btn*/
 
@@ -739,9 +823,12 @@ body, p, p.lead {
     visibility: visible;
 }
 
+
 /*Scroll Up Btn*/
 
+
 /*Responsive*/
+
 
 /* Large devices (desktops, less than 1200px)*/
 
@@ -767,22 +854,25 @@ body, p, p.lead {
     }
     /*Events*/
     /*Bootstrap Carousel*/
-    .carousel-control-prev-icon, .carousel-control-next-icon {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
         height: 50px;
         width: 50px;
     }
-    .carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+    .carousel-control-next-icon:after,
+    .carousel-control-prev-icon:after {
         font-size: 30px;
     }
     /*Bootstrap Carousel*/
 }
+
 
 /* Medium devices (tablets, less than 992px)*/
 
 @media (max-width: 991.98px) {
     /*General*/
     .colored-line {
-        background: linear-gradient(90deg, rgba(0,33,71,1) 0%, rgba(218,163,37,1) 50%, rgba(0,33,71,1) 100%);
+        background: linear-gradient(90deg, rgba(0, 33, 71, 1) 0%, rgba(218, 163, 37, 1) 50%, rgba(0, 33, 71, 1) 100%);
     }
     /*General*/
     /*Notice*/
@@ -813,6 +903,7 @@ body, p, p.lead {
     /*Sidebar Subment*/
 }
 
+
 /* Small devices (landscape phones, less than 768px)*/
 
 @media (max-width: 767.98px) {
@@ -840,6 +931,7 @@ body, p, p.lead {
     }
     /*Hero*/
 }
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
@@ -887,5 +979,6 @@ body, p, p.lead {
     }
     /*News Carousel*/
 }
+
 
 /*Responsive*/
