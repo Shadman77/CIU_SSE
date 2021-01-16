@@ -17,6 +17,18 @@
 /*Fonts*/
 
 
+/*Bootstrap Fix*/
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: 50px;
+    bottom: 50px;
+}
+
+
+/*Bootstrap Fix*/
+
+
 /*General*/
 
 html {
